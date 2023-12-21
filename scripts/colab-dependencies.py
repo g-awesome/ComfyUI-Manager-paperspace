@@ -30,7 +30,7 @@ def run_install_script(install_script_path):
         subprocess.run(["python", install_script_path])
 
 
-custom_nodes_directory = "custom_nodes"
+custom_nodes_directory = "/notebooks/ComfyUI/custom_nodes/"
 subdirs_with_files = get_enabled_subdirectories_with_files(custom_nodes_directory)
 
 
